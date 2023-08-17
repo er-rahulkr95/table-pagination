@@ -40,7 +40,7 @@ const Home2 = () => {
     },[limit,page])
 
   return (
-    <div>Home
+    <div>
     <TableView2 tableData={tableData} column={COLUMN_DATA}/>
     <Pagination setPage={setPage} page={page} tableData={tableData}/>
     </div>

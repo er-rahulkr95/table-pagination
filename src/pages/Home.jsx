@@ -23,7 +23,7 @@ const Home = () => {
     },[limit,page])
 
   return (
-    <div>Home
+    <div>
     <TableView tableData={tableData} />
     <Pagination setPage={setPage} page={page} tableData={tableData}/>
     </div>

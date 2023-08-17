@@ -9,6 +9,9 @@ function App() {
   return (
     <div>
       <Home/>
+      <hr/>
+      <h2>Alternate way in Home2 component under pages folder please review the code</h2>
+      <Home2/>
     </div>
   );
 }
