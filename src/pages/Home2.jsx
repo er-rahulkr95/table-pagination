@@ -17,7 +17,7 @@ import Pagination from '../components/Pagination/Pagination';
  * so we make a column data constant here for that particular page to reder column and rows data accordingly
  */
 
- const COLUMN_DATA = ['id', 'userId','title', 'body']
+ const COLUMN_DATA = [{field:'id', header:"ID"}, {field:'userId',header:"User Id"},{field:'title',header:"Title"}, {field:'body',header:"Body"}]
 
 
 const Home2 = () => {

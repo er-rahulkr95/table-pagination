@@ -7,7 +7,7 @@ const TableView2 = ({tableData, column}) => {
         {tableData.length>0 ?(<table>
             <thead>
             <tr>
-                {column.map(data=>(<th key={data}>{data}</th>))}
+                {column.map(data=>(<th key={data.field}>{data.header}</th>))}
                 </tr>
             </thead>
             {tableData.length >0 && (
@@ -15,7 +15,7 @@ const TableView2 = ({tableData, column}) => {
                     <tbody>
                         {tableData.map((data,index)=>(
                             <tr key={data.id}>
-                                {column.map((keysVal)=>(<td>{data[keysVal]}</td>))}
+                                {column.map((keysVal)=>(<td>{data[keysVal.field]}</td>))}
                             </tr>
                         )
                         )}
