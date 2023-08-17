@@ -14,7 +14,7 @@ import Pagination from '../components/Pagination/Pagination';
  *By this way we can limit the columm to be display in the table and also specify the order
  *
  * Here I am assuming that we know prior which data is to be displayed in the table and which key should be extracted for table from api
- * so we make a column data constant here for that particular page to reder column and rows data according;y
+ * so we make a column data constant here for that particular page to reder column and rows data accordingly
  */
 
  const COLUMN_DATA = ['id', 'userId','title', 'body']
