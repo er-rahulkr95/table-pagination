@@ -27,7 +27,7 @@ const Home2 = () => {
     const [tableData, setTableData] =  useState([])
     const apiCall = async ()=>{
         try {
-        const {data} = await axios.get(`${URL_ENDPOINT}?_limit=${limit}&_page=${page}`)
+        const {data} = await axios.get(`${URL_ENDPOINT}?_limit=${limit}&_page=${page}`);
         setTableData(data);
         
         } catch (error) {
