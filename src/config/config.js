@@ -1,0 +1,1 @@
+export const URL_ENDPOINT = "https://jsonplaceholder.typicode.com/posts"

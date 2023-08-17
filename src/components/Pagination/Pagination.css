@@ -1,0 +1,10 @@
+.paginationContainer{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+
+}
+.pageNumber{
+    margin: 0;
+    padding: 0;
+}
